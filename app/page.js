@@ -97,6 +97,7 @@ export default function HomePage() {
           alt="Gaming laptop and accessories on desk"
           width={700}
           height={500}
+          
           className="dealImage"
         />
       </section>
@@ -110,9 +111,9 @@ export default function HomePage() {
       </section>
 
       <footer id="contact" className="footer">
-        <h2>myshop</h2>
-        <p>Email: support@myshop.com | Phone: +1 (800) 555-0199</p>
-        <small>© {new Date().getFullYear()} myshop. All rights reserved.</small>
+        <h2>Showroom</h2>
+        <p>Email: support@myshop.com | Phone: +977 9829148336</p>
+        <small>© {new Date().getFullYear()} Showroom. All rights reserved.</small>
       </footer>
     </main>
   );
