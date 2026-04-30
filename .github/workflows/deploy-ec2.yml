@@ -17,7 +17,11 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
-          port: ${{ secrets.EC2_PORT || 22 }}
+          port: ${{ secrets.EC2_PORT || '22' }}
+          debug: true
+          timeout: 30m
+          connect_timeout: 10s
+          command_timeout: 10m
           script_stop: false
           script: |
             set -euxo pipefail
