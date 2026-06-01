@@ -8,3 +8,6 @@ Add the following repository secrets in GitHub (Settings  Secrets and variables
 - `EC2_USER`: SSH username for the EC2 instance (for example, `ec2-user` on Amazon Linux).
 - `EC2_SSH_KEY`: The private SSH key used to connect to the instance (the full key contents).
 - `EC2_PORT`: SSH port (optional). Defaults to 22 if not set.
+
+## Branch for action to run 
+ Set as your branch to call. currently `main`
